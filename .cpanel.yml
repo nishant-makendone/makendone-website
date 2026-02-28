@@ -3,3 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/nxlypvlh/public_html/
     - /bin/cp -R dist/index.html $DEPLOYPATH
+    - /bin/cp -R dist/assets $DEPLOYPATH
+    - /bin/cp -R dist/images $DEPLOYPATH
+    - /bin/cp -R dist/logos $DEPLOYPATH
+    - /bin/cp -R dist/vite.svg $DEPLOYPATH
